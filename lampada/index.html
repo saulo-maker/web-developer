@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício Lampada</title>
+</head>
+<style>
+
+    @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500&display=swap');
+
+    :root {
+        --primary-color: #000000;
+        ---secondary-color: #b3b3ff;
+    }
+    
+    body {
+        background-color: var(---secondary-color);
+    }
+
+    #image {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 1.5rem;
+    }
+
+    .titulo {
+        font-size: 2.5rem;
+        color: var(--primary-color);
+        font-family: 'Roboto Slab', serif;
+        text-align: center;
+    }
+</style>
+<body>
+    <h3 class="titulo">Clique na lâmpada</h3>
+    <a href="#">  
+        <img id="image" src="https://arduinolivre.files.wordpress.com/2013/08/lampada_desligada.png"/>
+    </a>
+</body>
+<script src="script.js"></script>
+</html>
